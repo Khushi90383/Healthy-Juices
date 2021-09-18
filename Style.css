@@ -1,27 +1,151 @@
-#navbar {
+#nav {
   list-style-type: none;
-  margin: 30px;
+  margin: 0;
   padding: 0;
-  width: 100%;
-  border-width: 100px;
-  background-color: #808080;
-  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
-ul {
-  float: left;
-}
-li {
+#nav li {
   display: inline;
+  padding: 40px;
+}
+#nav a {
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: turquoise;
+}
+#nav a:hover {
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: #000;
+}
+#root {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: darkturquoise;
+  font-weight: bold;
 }
 
-li a {
-  display: block;
+#one {
   width: 200px;
-  color: purple;
-  background-color: cornsilk;
-  float: left;
-  text-decoration: none;
+  height: 200px;
+  margin: 10px;
+  background-color: darkgreen;
+  font-weight: bold;
 }
-li a:hover {
-  background-color: aliceblue;
+#Two {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: cornflowerblue;
+  font-weight: bold;
+}
+#Three {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: blue;
+  font-weight: bold;
+}
+#four {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: darkmagenta;
+  font-weight: bold;
+}
+#five {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: darkturquoise;
+  font-weight: bold;
+}
+#six {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: darkturquoise;
+  font-weight: bold;
+}
+#seven {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: darkturquoise;
+  font-weight: bold;
+}
+#eight {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: darkturquoise;
+  font-weight: bold;
+}
+#root img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#one img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#Two img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#Three img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#four img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#five img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#six img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#seven img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#eight img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: fuchsia;
+  flex-wrap: wrap;
 }
