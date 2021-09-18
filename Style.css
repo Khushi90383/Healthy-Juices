@@ -1,0 +1,27 @@
+#navbar {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+  width: 100%;
+  border-width: 100px;
+  background-color: #808080;
+  padding: 20px;
+}
+ul {
+  float: left;
+}
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  width: 200px;
+  color: purple;
+  background-color: cornsilk;
+  float: left;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: aliceblue;
+}
