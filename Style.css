@@ -47,6 +47,7 @@
   margin: 10px;
   background-color: darkgreen;
   font-weight: bold;
+  border-radius: 50px;
 }
 #Two {
   width: 200px;
@@ -54,6 +55,7 @@
   margin: 10px;
   background-color: cornflowerblue;
   font-weight: bold;
+  border-radius: 50px;
 }
 #Three {
   width: 200px;
@@ -61,6 +63,7 @@
   margin: 10px;
   background-color: blue;
   font-weight: bold;
+  border-radius: 50px;
 }
 #four {
   width: 200px;
@@ -68,6 +71,7 @@
   margin: 10px;
   background-color: darkmagenta;
   font-weight: bold;
+  border-radius: 50px;
 }
 #five {
   width: 200px;
@@ -75,6 +79,7 @@
   margin: 10px;
   background-color: darkturquoise;
   font-weight: bold;
+  border-radius: 50px;
 }
 #six {
   width: 200px;
@@ -82,6 +87,7 @@
   margin: 10px;
   background-color: darkturquoise;
   font-weight: bold;
+  border-radius: 50px;
 }
 #seven {
   width: 200px;
@@ -89,6 +95,7 @@
   margin: 10px;
   background-color: darkturquoise;
   font-weight: bold;
+  border-radius: 50px;
 }
 #eight {
   width: 200px;
@@ -96,6 +103,16 @@
   margin: 10px;
   background-color: darkturquoise;
   font-weight: bold;
+  border-radius: 50px;
+}
+#root:hover {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
 }
 #root img {
   width: 100%;
@@ -152,9 +169,17 @@
 }
 .container {
   display: flex;
-  flex-wrap: horizontal;
-  flex-direction: row;
-  background-color: coral;
   flex-wrap: wrap;
-  border-radius: 10px;
+  border-radius: 50px;
+  margin: auto;
+}
+@media (max-width: 768) {
+  .item-tile {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .item-tile {
+    width: 30%;
+  }
 }
