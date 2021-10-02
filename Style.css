@@ -141,12 +141,15 @@ body {
 @media (max-width: 500px) and (min-width: 300px) {
   #home {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    align-items: center;
-    height: 20%;
-    width: 33%;
+    flex-direction:column;
+    float:center;
+    width: 100%;
+    height:10%;
+    margin:30%;
+    padding-left:30%;
+    padding-right:20%;
+    padding-top:20%;
+    padding-bottom:20%;
   }
   @media (max-width: 500px) and (min-width: 300px) {
 
