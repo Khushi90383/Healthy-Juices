@@ -80,6 +80,7 @@ body {
 }
 .one {
   margin: 10px;
+  width:28%;
   background-color: rgb(89, 126, 89);
   font-weight: bold;
   border: crimson solid;
@@ -151,24 +152,29 @@ body {
     padding-bottom:20%;
   }
   @media (max-width: 500px) and (min-width: 300px) {
-    .one {
-      margin: 10px;
+    .one{
       width:30%;
-      background-color: rgb(89, 126, 89);
-      font-weight: bold;
-      border: crimson solid;
-      padding: 10px;
-      border-radius: 30px;
-      opacity: 0.9rem;
+      display:flex;
+      flex-wrap:wrap;
+      flex-direction:row;
+      border:solid brown 5px;
     }
 }
 @media screen and (max-width: 992px) {
   .one{
-    width: 50%;
+    width:30%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    border:solid brown 5px;
   }
 }
 @media screen and (max-width: 600px) {
   .one{
-    width: 100%;
+    width:30%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    border:solid brown 5px;
   }
 }
