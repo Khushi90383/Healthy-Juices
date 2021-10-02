@@ -153,12 +153,16 @@ body {
   }
   @media (max-width: 500px) and (min-width: 300px) {
     .one{
-    width:30%;
-    padding:10%;
-    margin:10%;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
+      width:30%;
+      display:flex;
+      flex-wrap:wrap;
+      flex-direction:row;
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width:100%;
     }
 }
 @media screen and (max-width: 992px) {
