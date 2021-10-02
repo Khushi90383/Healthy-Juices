@@ -53,6 +53,7 @@ body {
   flex-direction: column;
   padding: 10% 10%;
   justify-content: center;
+  margin: auto;
   align-items: center;
   height: 633px;
 }
@@ -82,7 +83,7 @@ body {
   background-color: rgb(89, 126, 89);
   font-weight: bold;
   border: crimson solid;
-  padding: 1em;
+  padding: 10px;
   border-radius: 30px;
   opacity: 0.9rem;
 }
@@ -135,4 +136,15 @@ body {
   font-size: 22px;
   line-height: 36px;
   color: #ff6d04;
+}
+@media (max-width: 500px) and (min-width: 300px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    height: 30%;
+    width: 30%;
+  }
 }
