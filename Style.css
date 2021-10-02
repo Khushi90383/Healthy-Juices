@@ -62,6 +62,41 @@ body {
   height: 30%;
   object-fit: cover;
 }
+.row{
+     display:flex;
+     flex-direction:row;
+}
+.card{
+   width:20%;
+   background:#fff;
+   border:1px solid #ccc;
+   margin-bottom:50px;
+   transition:0.3s;
+}
+.card-header{
+  text-align:center;
+  padding:50px 10px;
+  background:linear gradient(toright,#ff416c,#ff4b2b);
+  color:#fff;
+}
+.card-body{
+  padding:30px 20px;
+  text-align:center;
+  font-size:18px;
+}
+.card-body .btn{
+  display:block;
+  color:#fff;
+  text-align:center;
+  background:linear-gradient(to right,#ff416c,#ff4b2b);
+  margin-top:30px;
+  text-decoration:none;
+  padding:10px 5px;
+}
+.card:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 40px -10px rgba(0,0,0,0.25);
+}
 .btn {
   padding: 6px 20px;
   border: 2px solid white;
@@ -76,7 +111,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width:100%;
+  width:90%;
+  margin:50px auto;
 }
 .one {
   margin: 10px;
@@ -152,6 +188,11 @@ body {
     padding-top:20%;
     padding-bottom:20%;
   }
+  @media screen and (max-width:1000px){
+    .card{
+      width:40%;
+    }
+  }
   @media (max-width: 500px) and (min-width: 300px) {
     .one{
       width:30%;
@@ -159,11 +200,14 @@ body {
       flex-wrap:wrap;
       flex-direction:row;
     }
-    .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      flex-grow:initial;
+    .container {
+       width:90%;
+       margin:50px auto;
+    }
+    .heading{
+      text-align:center;
+      font-size:30px;
+      margin-bottom:50px;
     }
     .footer {
       background-color: azure;
