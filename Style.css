@@ -114,6 +114,7 @@ body {
   background-color: azure;
   padding: 150px;
   display: flex;
+  width:100%;
 }
 .foot_menu {
   width: 25%;
@@ -162,7 +163,11 @@ body {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      width:100%;
+      flex-grow:initial;
+    }
+    .footer {
+      background-color: azure;
+      display: flex;
     }
 }
 @media screen and (max-width: 992px) {
