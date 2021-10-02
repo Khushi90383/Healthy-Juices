@@ -153,11 +153,12 @@ body {
   }
   @media (max-width: 500px) and (min-width: 300px) {
     .one{
-      width:50%;
-      display:flex;
-      flex-wrap:wrap;
-      flex-direction:row;
-      border:solid brown 5px;
+    width:50%;
+    padding:10%;
+    margin:10%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
     }
 }
 @media screen and (max-width: 992px) {
