@@ -76,13 +76,18 @@ body {
 .card-header{
   text-align:center;
   padding:50px 10px;
-  background:linear gradient(toright,#ff416c,#ff4b2b);
+  background:linear gradient(to right,#ff416c,#ff4b2b);
   color:#fff;
 }
 .card-body{
   padding:30px 20px;
   text-align:center;
   font-size:18px;
+}
+.card-body img{
+  border-radius:20px;
+  width:100%;
+  display:flex;
 }
 .card-body .btn{
   display:block;
@@ -153,7 +158,7 @@ body {
   width:100%;
 }
 .foot_menu {
-  width: 25%;
+  width: 30%;
   float: left;
 }
 .foot_menu h3 {
@@ -174,6 +179,24 @@ body {
   font-size: 22px;
   line-height: 36px;
   color: #ff6d04;
+}
+#foot_menu1{
+  float:left;
+  padding:30px;
+  list-style-type:none;
+  text-decoration:none;
+}
+#foot_menu2{
+  float:center;
+  padding:30px;
+  list-style-type:none;
+  text-decoration:none;
+}
+#foot_menu3{
+  float:right;
+  padding:30px;
+  list-style-type:none;
+  text-decoration:none;
 }
 @media (max-width: 500px) and (min-width: 300px) {
   #home {
@@ -212,7 +235,6 @@ body {
     .footer {
       background-color: azure;
       display: flex;
-      width:100%;
     }
 }
 @media screen and (max-width: 992px) {
